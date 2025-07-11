@@ -7,6 +7,8 @@ import './i18n';
 import { ThemeProvider } from '../context/ThemeContext';
 import { LanguageProvider } from '../context/LanguageContext';
 
+document.documentElement.classList.add('dark') //definindo tema escuro como padrão
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ThemeProvider>
