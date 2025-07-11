@@ -1,0 +1,39 @@
+/* tema claro */
+:root {
+    --font-body: 'Figtree', sans-serif;
+    --font-heading: 'Figtree', sans-serif;
+  
+    --color-bg: #ECECEC;
+    --color-surface: #f5f5f5;
+    --color-text: #101111;
+    --color-text-light: #333333;
+  
+    --color-primary: #7087FF;
+    --color-secondary: #F29AFF;
+    --color-accent: #370084;
+  
+    --color-border: #dddddd;
+    --color-link: #370084;
+  
+    --gradient-main: linear-gradient(to right, #F29AFF, #7087FF);
+  }
+  
+  /* tema escuro (padrão) */
+  .dark {
+    --color-bg: #101111;
+    --color-surface: #1E1E1E;
+    --color-surface-alt: #292929;
+  
+    --color-text: #ECECEC;
+    --color-text-light: #bbbbbb;
+  
+    --color-primary: #7087FF;
+    --color-secondary: #F29AFF;
+    --color-accent: #370084;
+  
+    --color-border: #292929;
+    --color-link: #F29AFF;
+  
+    --gradient-main: linear-gradient(to right, #F29AFF, #7087FF);
+  }
+  
